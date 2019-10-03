@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FormsExample
+namespace XAMLChapter2
 {
     public partial class App : Application
     {
@@ -10,7 +10,7 @@ namespace FormsExample
         {
             InitializeComponent();
 
-            MainPage = new ContentPageExample();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
