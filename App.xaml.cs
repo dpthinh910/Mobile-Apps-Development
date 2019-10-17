@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace baitap1
+namespace baitap2
 {
     public partial class App : Application
     {
@@ -10,7 +10,7 @@ namespace baitap1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new PageListViewHoa();
         }
 
         protected override void OnStart()
